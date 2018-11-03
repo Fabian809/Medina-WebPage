@@ -1,8 +1,3 @@
-# Medina-WebPage
-
-MY HTML CODE SO FAR
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
