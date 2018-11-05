@@ -1,0 +1,304 @@
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color:transparent;
+    overflow: hidden;
+    border: 40px;
+    padding: 10px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: right;
+    /* color: rgba(131, 15, 0, 0.795); */
+    color: rgb(6, 213, 250);
+    text-decoration: none;
+    text-align: center;
+    padding: 1px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: white;
+    /* color: rgba(131, 15, 0, 0.795); */
+    color: red;
+    border: 2px solid rgba(22, 20, 21, 0.671);
+    border-radius: 7px;
+}
+
+body{
+    /* background-color: rgb(6, 213, 250); */
+    background-color: white;
+    color: white;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    /* font-family: soft, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* background-image: url(SpaceLogo.png); */
+    background-image: url(circuit.png);
+}
+.about p{
+    color: white;
+    font-family: soft, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+} 
+.about{
+    /* color: rgba(131, 15, 0, 0.795); */
+    color: rgb(6, 213, 250);
+    text-align: center;
+    /* margin-top: collaspe; */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+span{
+    /* text-decoration: underline; */
+    box-shadow: 0 10px 2px rgba(0, 0, 0, .5);
+    border-radius: 7px;
+    background-color: transparent;
+    border-width: 10px;
+    border-style: groove;
+    border-color: grey;
+
+}
+hr{
+    border: 0;
+    height: 0;
+    /* border-top: 1px solid rgba(59, 56, 56, 0.1); */
+    border-top: 1px solid rgba(6, 213, 250, .3);
+    /* border-bottom: 1px solid rgba(99, 1, 1, 0.3); */
+    border-bottom: 1px solid rgba(6, 213, 250, .3);
+}
+
+.small-container p{
+    color: white;
+    /* font-family: soft, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.small-container{
+    /* color:rgba(131, 15, 0, 0.795); */
+    color: rgb(6, 213, 250);
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.container{
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container .card a{
+    text-decoration: none;
+    color: black;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    text-decoration: none;
+}
+
+.card{
+    /* background-color:rgba(131, 15, 0, 0.795); */
+    background-color:rgba(6, 213, 250, .7);
+    /* background-color:rgb(6, 213, 250); */
+    text-align: center; 
+    color:white;
+    border: 1px solid black;
+    border-radius: 6px;
+    box-shadow: 0 10px 2px rgba(0, 0, 0, .5);
+    padding: 2.5rem;
+    margin: .5rem;
+}
+
+ /* {
+    transform: rotate(120deg)
+               translate(150px)
+               rotate(-120deg);
+}
+to {
+    transform: rotate(480deg)
+               translate(0px) 
+               rotate(-480deg);
+} */
+
+/* a:active {
+    color: gray;
+}
+
+a:visited {
+    color:black;
+} */
+
+.card a:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 25px rgba(0,0,0,.1);
+}
+
+/* .card a:visited {
+    color:purple;
+}  */
+
+.card img {
+    display: block;
+    margin: 0 auto;
+}
+
+
+img{
+    height: auto;
+    max-width: 100%;
+}
+
+.skills .card img {
+    max-width: 50px;
+    border-radius: 6px;
+}
+
+
+.job-company{
+    float: right;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-size: 1.1rem;
+    text-align: left;
+    background: transparent;
+    border-radius: 6px
+}
+
+table a {
+    font-weight: 800;
+    /* color: #1d1e25; */
+    color: white
+    font-size 1.25rem
+
+}
+
+table a:hover{
+    text-decoration: underline;
+    color: red
+}
+th {
+    /* background: rgba(131, 15, 0, 0.795); */
+    /* background-color: rgb(6, 213, 250); */
+    background-color:rgba(6, 213, 250, .7);
+    color: white;
+    padding: 1rem;
+    font-size: 1.25rem;
+    border-bottom: 2px solid #ebecec;
+    font-weight: 400px;
+}
+
+td {
+    padding: 1.5rem 1rem;
+    border-bottom: 1px solid #ebecec;
+    color: white;
+
+}
+td a{
+    text-decoration: none;
+    color: white;
+}
+
+/* .alt-bg {
+    background: -webkit-gradient(linear,left bottom,right top,from(#f6f6f7),to(#fefefe));
+    background: linear-gradient(to top right,#f6f6f7,#fefefe); 
+} */
+
+.section-header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.container, .small-container {
+    max-width: 1050px;
+    padding: 0 1rem;
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    margin: auto;
+}
+.small-container {
+    max-width: 650px;
+}
+.small-container p a{
+    text-decoration: none;
+    color: rgb(6, 213, 250);
+}
+.small-container a:hover{
+    text-decoration: underline;
+    color: red;
+}
+form {
+    display: block;
+    margin-top: 0em;
+}
+
+label {
+    display: block;
+    font-weight: 700;
+    margin-bottom: .5rem
+}
+
+[type=text],[type=email],textarea {
+    width: 100%;
+    display: block;
+    border: 1px solid #dee0e0;
+    border-radius: 6px;
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.1);
+    box-shadow: 0 1px 2px rgba(0,0,0,.1);
+    padding: 1rem;
+    font-size: 1.1rem;
+    margin-bottom: 1rem
+}
+
+.site-footer {
+    text-align: center;
+    padding: 2rem 0;
+    background: transparent;
+    color: #bec6d5;
+}
+
+/* .underline a {
+    display: inline-block;
+    -webkit-transition: all 100ms linear;
+    transition: all 100ms linear;
+    background: -webkit-gradient(linear,left top,right top,from(#45bafc),to(#57EEA1));
+    background: linear-gradient(to right,#45bafc 0%,#57EEA1 100%);
+    background-size: 0 6px;
+    background-repeat: no-repeat;
+    background-position: left 95%
+}
+
+.underline a:hover {
+    background-size: 100% 6px
+}  */
+
+.social-icons a {
+    /* color: rgba(131, 15, 0, 0.795); */
+    color: rgba(6, 213, 250,0.795);
+    margin: 0 .5rem;
+    font-size: 40px;
+    
+}
+
+.social-icons a:hover {
+    text-decoration: none;
+    color: red;
+}
+
+.footer-bottom {
+    text-align: center;
+    color: rgb(6, 213, 250);
+}
+
